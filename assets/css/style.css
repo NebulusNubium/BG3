@@ -147,6 +147,7 @@ h3 {
 
 .races {
     width: 90%;
+    margin-bottom: 5rem;
 }
 .races>h3 {
 }
@@ -223,5 +224,41 @@ h3 {
     border-bottom: 2px solid #facd9f;
     padding-bottom: 5rem;
     margin-bottom: 26rem;
-    
+}
+
+#section-editions {
+    background-image: url(../img/buy-now-background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.img-pc {
+    width: 90%;
+    padding-left: 5rem;
+}
+.img-pc img {
+    width: 100%;
+}
+
+.edition-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.editions {
+    display: flex;
+    gap: 5px;
+}
+.btn.ed {
+    color: white;
+    border: 1px solid #facd9f;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.synopsis {
+    color: white;
+    width: 90%;
 }
