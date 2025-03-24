@@ -11,7 +11,7 @@
 body {
     font-family: "Gothic", sans-serif;
     margin: 0;
-    color: gold;
+    color: #facd9f;
     font-size: 25px;
 }
 
@@ -19,7 +19,7 @@ body {
 
 h1, h2, h3 {
     font-family: "Medieval Sharp", sans-serif;
-    color: gold;
+    color: #facd9f;
 }
 
 .logo {
@@ -50,7 +50,7 @@ a {
 }
 
 .btn.head {
-    background-color: gold;
+    background-color: #facd9f;
     color: black;
 }
 
@@ -64,7 +64,6 @@ a {
 }
 
 #section-party {
-    margin: 13vw 0;
 }
 
 .video-container {
@@ -86,7 +85,7 @@ a {
 
 h2 {
     font-size: 40px;
-    color: gold;
+    color: #facd9f;
 }
 
 .partytime {
@@ -96,7 +95,7 @@ h2 {
     align-items: center;
     position: relative;
     z-index: 1;
-    color: gold;
+    color: #facd9f;
     padding-top: 20rem;
     font-size: 30px;
 }
@@ -104,7 +103,7 @@ h2 {
 .partytime a {
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
-    border: 1px solid gold;
+    border: 1px solid #facd9f;
     margin-bottom: 10rem;
 }
 
@@ -126,7 +125,7 @@ h2 {
     gap: 2rem;
     padding: 3rem;
     width: 50%;
-    border: 1px solid gold;
+    border: 1px solid #facd9f;
     background-image: url(../img/awards-bg.png);
 }
 
@@ -163,7 +162,7 @@ h3 {
 
 .all-races {
     width: 40vw;
-    border: 1px solid gold;
+    border: 1px solid #facd9f;
     background-image: url(../img/races-bg.jpg);
 }
 
@@ -186,7 +185,7 @@ h3 {
 
 .elf {
     width: 40vw;
-    border: 1px solid gold;
+    border: 1px solid #facd9f;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -204,12 +203,25 @@ h3 {
 }
 
 .elf-titre {
-    font
+    border-bottom: 2px solid #ddc9a7;
+    width: 50%;
+    position: relative;
+}
+
+.line {
+    width: 5%;
+    position: absolute;
+    bottom: -16%;
+    left: -4%;
+}
+
+.line img {
+    width: 100%;
 }
 
 .elf-description {
-    border-bottom: 1px solid gold;
+    border-bottom: 2px solid #facd9f;
     padding-bottom: 5rem;
-    margin-bottom: 25rem;
+    margin-bottom: 26rem;
     
 }
