@@ -308,3 +308,18 @@ h3 {
 .update:hover {
     box-shadow: none;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+    justify-content: center;
+    width: 80%;
+    padding-left: 10%;
+    gap: 1rem;
+}
+
+.gallery img {
+    width: 20%;
+    object-fit: cover;
+}
