@@ -147,7 +147,7 @@ h2 {
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .races {
@@ -297,7 +297,8 @@ h3 {
 .update-txt {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
 }
 
 .update.une {
@@ -329,7 +330,7 @@ h3 {
     margin: 0;
 }
 
-#section-fanart h3 {
+#section-fanart h2 {
     padding-left: 45%;
 }
 
