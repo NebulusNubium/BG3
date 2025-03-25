@@ -32,7 +32,7 @@ h1, h2, h3 {
     width: 100%;
 }
 
-ul {
+nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -357,16 +357,46 @@ h3 {
     width: 90px;
 }
 
-footer {
-    width: 80%;
-    border-top: #ddc9a7;
-    border-bottom: #ddc9a7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#social {
+    margin: 8% 15%;
+    border-top: 1px solid #ddc9a7;
+    border-bottom: 1px solid #ddc9a7;
 }
 
-#social {
-    margin: 5rem;
-    
+.social-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-bot {
+    display: flex;
+    justify-content: center;
+    width: 66%;
+    gap: 3rem;
+}
+
+.join-us, .nav-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.join-us {
+    width: 33%;
+}
+.join-us h3 {
+    font-size: 30px;
+}
+
+.nav-menu {
+    width: 25%;
+}
+.nav-menu h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-menu ul {
+    font-size: 16px;
+    list-style: none;
 }
